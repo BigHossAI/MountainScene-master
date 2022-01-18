@@ -14,10 +14,9 @@
         <TextView
             android:id="@+id/textView"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="sans-serif-medium"
+            android:layout_height="match_parent"
             android:text="Happy Birthday!"
-            android:textColor="#F36B41"
+            android:textColor="#FF5722"
             android:textSize="34sp" />
     </LinearLayout>
 
@@ -46,6 +45,12 @@
             android:layout_height="wrap_content"
             android:text="HOORAY!!" />
 
+        <Switch
+            android:id="@+id/switch3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Frosting" />
+
         <Button
             android:id="@+id/button2"
             android:layout_width="wrap_content"
@@ -53,4 +58,5 @@
             android:text="yay..." />
 
     </LinearLayout>
+
 </LinearLayout>
