@@ -6,4 +6,6 @@ public class CakeModel {
     int numCandles = 2;
     boolean isFrostingOn = true;
     boolean isCandleOn = true;
+
+
 }

@@ -1,6 +1,9 @@
 package cs301.birthdaycake;
 
-public class CakeController {
+import android.util.*;
+import android.view.View;
+
+public class CakeController implements View.OnClickListener {
 
     private CakeView m_cakeView;
     private CakeModel m_cakeModel;
@@ -12,6 +15,18 @@ public class CakeController {
 
     }
 
+
+    @Override
+    public void onClick(View view) {
+        Log.d("BLOW OUT", "BLOW HARDER");
+
+        m_cakeModel.isCandleLit = false;
+        m_cakeView.invalidate();
+
+
+
+
+    }
 }
 
 

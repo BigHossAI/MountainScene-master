@@ -21,6 +21,9 @@ public class MainActivity extends AppCompatActivity {
         cake = findViewById(R.id.cakeview);
         CakeController cakeController = new CakeController(cake);
 
+        View buttonView = findViewById(R.id.button2);
+        buttonView.setOnClickListener(cakeController);
+
     }
 
     public void goodbye(View button){
