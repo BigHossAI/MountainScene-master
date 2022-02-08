@@ -8,11 +8,19 @@ import android.util.Log;
 
 public class MainActivity extends AppCompatActivity {
 
+
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
         setContentView(R.layout.activity_main);
+
+        CakeView cake;
+        cake = findViewById(R.id.cakeview);
+        CakeController cakeController = new CakeController(cake);
+
     }
 
     public void goodbye(View button){
